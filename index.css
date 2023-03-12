@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderSum{
+    height: 80%;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.card-def{
+    height: 60%;
+    width: 100%;
+    /* background-color: yellow; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-def p{
+    font-size: 16px;
+    text-align: center;
+    margin: 8px 20px 20px 20px;
+    line-height: 22px;
+    color: hsl(224, 23%, 55%);
+}
+h1{
+    font-size: 22px;
+    margin-top: 28px ;
+    text-align: center;
+}
+.pic{
+    height: 60%;
+    width: 100%;
+    background-image: url(./images/illustration-hero.svg);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.pic,body{
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.plan{
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 20px;
+    padding: 8px;
+    background-color: hsla(225, 11%, 93%, 0.5);
+    border-radius: 3px;
+    /* justify-content: sp; */
+}
+.plan img{
+    height: 38px;
+    margin-right: 20px;
+}
+.plan a{
+    margin-left: 60px;
+    font-size: 15px;
+    color:  hsl(245, 75%, 52%);
+}
+.plan p{
+    font-size: 14px;
+    color:  hsl(224, 23%, 55%);
+}
+.plan div{
+    display: flex;
+    flex-direction: column;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action button{
+    width: 88%;
+    border: none;
+    position: relative;
+    -webkit-box-shadow: 1px 11px 15px 2px rgba(0,0,0,0.72); 
+    box-shadow: 1px 11px 15px 2px rgba(0,0,0,0.72);
+    z-index: 5;
+    border-radius: 5px;
+    padding: 11px;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+
+.action a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
